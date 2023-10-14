@@ -1,11 +1,14 @@
 import './App.css'
+import ChoosingAnimal from './components/ChoosingAnimal'
+import Header from './components/Header'
 
 function App() {
 
   return (
-    <>
-      <div>hello !</div>
-    </>
+    <div className='main'>
+      <Header />
+      <ChoosingAnimal />
+    </div>
   )
 }
 
